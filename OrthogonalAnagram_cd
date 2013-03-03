@@ -1,0 +1,50 @@
+<?php
+$hello = "dbca";
+$word_array = str_split($hello);
+$sorted_array = $word_array;
+natcasesort($sorted_array);
+
+$result_array = orthogonalAnagram($word_array, $sorted_array);
+
+print_r($result_array);
+
+function orthogonalAnagram($word_array, $sorted_array){
+  $result = array();
+	$word_count = count($word_array);
+	$sorted_count = count($sorted_array);
+	
+	for ($i = 0; $i < $word_count; $i++){
+				
+		foreach($sorted_array as $key => $val){
+			if($word_array[$i] != $val){
+				$result[] = $val;
+				unset($sorted_array[$key]);
+				break;
+			}
+		}
+		
+		/*
+		 * This process did not work. Kept throwing what looked like null pointers.
+		 * I found that if the value by key is not present in the array,
+		 * PHP will assign it and return null which will create an error later on.
+		 * This is why I decided to use the foreach loop to make sure when I use unset,
+		 * I am properly iterating through the array.
+		while($word_array[$i] == $sorted_array[$b]){
+			$b++;
+			if($b >= $sorted_count)
+				return "";
+		}	
+		
+		$result[] = $sorted_array[$b];
+		unset($sorted_array[$b]);
+		*/		
+	}
+	
+	if($sorted_count == count($result))
+		return $result;
+	else
+		return "";
+	
+}
+
+?>
