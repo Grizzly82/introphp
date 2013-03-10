@@ -1,0 +1,312 @@
+/***************************************************************
+*  For this solution, I used one of my college books: 
+*  Book: Object-Oriented Design in C++, Using the Standard 
+*			Template Library
+*  Author: Nick De Lillo My professor
+*
+*
+*************************************************************/
+
+
+Output:
+
+
+Average Time for Binary Tree = 3.7906912750088E-06
+Standard deviation = 1.40343496638129E-06, CV = 0.370231935170724
+
+Average time for Hash Table = 1.9235545299751E-06
+Standard deviation = 1.01183130183717E-06, CV = 0.526021636542984
+
+Number of symbols to insert 20000
+0
+4000
+8000
+12000
+16000
+
+
+Average Time for Binary Tree = 4.0899052812585E-06
+Standard deviation = 2.24416624151818E-06, CV = 0.548708609903951
+
+Average time for Hash Table = 2.02042438354587E-06
+Standard deviation = 2.12753700006316E-06, CV = 1.05301490983261
+
+Number of symbols to insert 30000
+0
+4000
+8000
+12000
+16000
+
+
+Average Time for Binary Tree = 3.70949380438058E-06
+Standard deviation = 2.88546906831954E-06, CV = 0.777860597829295
+
+Average time for Hash Table = 1.7791507021143E-06
+Standard deviation = 1.39940232132937E-06, CV = 0.786556371906185
+
+Number of symbols to insert 40000
+0
+4000
+8000
+12000
+16000
+
+
+Average Time for Binary Tree = 4.05439797516226E-06
+Standard deviation = 1.6398930601038E-06, CV = 0.40447264184473
+
+Average time for Hash Table = 1.91842818011778E-06
+Standard deviation = 9.90085795060056E-07, CV = 0.516092186989908
+
+Number of symbols to insert 50000
+0
+4000
+8000
+12000
+16000
+
+
+Average Time for Binary Tree = 4.03410209956914E-06
+Standard deviation = 1.33902558261708E-06, CV = 0.331926547610208
+
+Average time for Hash Table = 1.92433675229665E-06
+Standard deviation = 1.66209945967931E-06, CV = 0.86372588253882
+
+Number of symbols to insert 60000
+0
+4000
+8000
+12000
+16000
+
+
+Average Time for Binary Tree = 4.14221639901227E-06
+Standard deviation = 1.68253441429295E-06, CV = 0.406191819117455
+
+Average time for Hash Table = 1.94457675486681E-06
+Standard deviation = 8.90441212849917E-07, CV = 0.457910036526641
+
+Number of symbols to insert 80000
+0
+4000
+8000
+12000
+16000
+
+
+Average Time for Binary Tree = 4.33155610559522E-06
+Standard deviation = 1.70206219683427E-06, CV = 0.392944742106806
+
+Average time for Hash Table = 2.0091939059293E-06
+Standard deviation = 1.31895060870958E-06, CV = 0.65645759964593
+
+Number of symbols to insert 100000
+0
+4000
+8000
+12000
+16000
+
+
+Average Time for Binary Tree = 4.45538469274811E-06
+Standard deviation = 1.69954981389225E-06, CV = 0.381459723704343
+
+Average time for Hash Table = 2.02215644725788E-06
+Standard deviation = 7.26820061057746E-07, CV = 0.359428204500865
+
+Number of symbols to insert 120000
+0
+4000
+8000
+12000
+16000
+
+
+Average Time for Binary Tree = 4.78116632141892E-06
+Standard deviation = 2.81448412536405E-06, CV = 0.588660576971685
+
+Average time for Hash Table = 2.10120280650185E-06
+Standard deviation = 1.23857222870654E-06, CV = 0.589458678083793
+
+Number of symbols to insert 140000
+0
+4000
+8000
+12000
+16000
+
+
+Average Time for Binary Tree = 4.76881838334299E-06
+Standard deviation = 1.91939635387963E-06, CV = 0.402488876612264
+
+Average time for Hash Table = 2.08544661402488E-06
+Standard deviation = 1.15467288142116E-06, CV = 0.553681342718554
+
+Number of symbols to insert 160000
+0
+4000
+8000
+12000
+16000
+
+
+Average Time for Binary Tree = 4.79966029202137E-06
+Standard deviation = 1.31201361722753E-06, CV = 0.273355516307796
+
+Average time for Hash Table = 2.07273550129966E-06
+Standard deviation = 7.95048365127246E-07, CV = 0.383574442869691
+
+Number of symbols to insert 180000
+0
+4000
+8000
+12000
+16000
+
+
+Average Time for Binary Tree = 4.97957142597834E-06
+Standard deviation = 2.15200434806397E-06, CV = 0.432166579002561
+
+Average time for Hash Table = 2.12887392112676E-06
+Standard deviation = 8.22629649563271E-07, CV = 0.386415391442192
+
+Number of symbols to insert 200000
+0
+4000
+8000
+12000
+16000
+
+
+Average Time for Binary Tree = 5.37135306303017E-06
+Standard deviation = 4.02983835365411E-06, CV = 0.750246410237038
+
+Average time for Hash Table = 2.26760663715631E-06
+Standard deviation = 2.22909574079083E-06, CV = 0.983016941415477
+
+Number of symbols to insert 250000
+0
+4000
+8000
+12000
+16000
+
+
+Average Time for Binary Tree = 5.76717152599139E-06
+Standard deviation = 3.22817006353727E-06, CV = 0.559749272063195
+
+Average time for Hash Table = 2.2665729862314E-06
+Standard deviation = 1.84038569159968E-06, CV = 0.811968422274221
+
+Number of symbols to insert 300000
+0
+4000
+8000
+12000
+16000
+
+
+Average Time for Binary Tree = 5.40920703609102E-06
+Standard deviation = 3.748381298235E-06, CV = 0.692963178008394
+
+Average time for Hash Table = 2.19615900903597E-06
+Standard deviation = 1.72213125423306E-06, CV = 0.784155995602981
+
+Number of symbols to insert 400000
+0
+4000
+8000
+12000
+16000
+
+
+Average Time for Binary Tree = 5.7467639043523E-06
+Standard deviation = 2.93373526382472E-06, CV = 0.510502138708511
+
+Average time for Hash Table = 2.25641806430696E-06
+Standard deviation = 1.45191478530195E-06, CV = 0.643460007819025
+
+Number of symbols to insert 500000
+0
+4000
+8000
+12000
+16000
+
+
+Average Time for Binary Tree = 5.98608202998003E-06
+Standard deviation = 3.71196178480472E-06, CV = 0.620098716692177
+
+Average time for Hash Table = 2.30205235581608E-06
+Standard deviation = 2.16671836875965E-06, CV = 0.941211594638799
+
+Number of symbols to insert 750000
+0
+4000
+8000
+12000
+16000
+
+
+Average Time for Binary Tree = 6.2062915817528E-06
+Standard deviation = 2.20143917788087E-06, CV = 0.354710884734026
+
+Average time for Hash Table = 2.26404473194209E-06
+Standard deviation = 1.19275759208323E-06, CV = 0.526825983274669
+
+Number of symbols to insert 1000000
+0
+4000
+8000
+12000
+16000
+
+
+Average Time for Binary Tree = 6.96737993236739E-06
+Standard deviation = 4.32330450661962E-06, CV = 0.620506495782646
+
+Average time for Hash Table = 2.44260094509208E-06
+Standard deviation = 2.08374085976714E-06, CV = 0.853082802556841
+
+Number of symbols to insert 1000000
+0
+4000
+8000
+12000
+16000
+
+
+Average Time for Binary Tree = 7.06578629406983E-06
+Standard deviation = 4.48537601115786E-06, CV = 0.634802104745561
+
+Average time for Hash Table = 2.53751524285898E-06
+Standard deviation = 3.95057671610546E-06, CV = 1.55686817142206
+Test Deletion method
+
+Number of nodes in the tree = 9
+
+Original: 50(40(30(20, 35), 45(44, 46)), 60)
+Delete node 40: 50(44(30(20, 35), 45(_, 46)), 60)
+Delete node 45: 50(44(46, 45(_, 46)), 60)
+
+Simple one layered tree
+
+Original: 50(20, 90)
+Delete node 50: 90(20, _)
+
+Original: 50(20, 90)
+Delete node 20: 50(_, 90)
+
+Original: 50(20, 90)
+Delete node 90: 50(20, _)
+Delete node 20: 50
+Delete node 50: empty
+
+
+Original: L(D(C(A, _), H(F, J)), P)
+Delete J: L(D(C(A, _), H(F, _)), P)
+Delete C: L(D(A, H(F, _)), P)
+Delete L: P(D(A, H(F, _)), _)
+Delete D: P(F(A, H), _)
+Delete A: P(F(_, H), _)
